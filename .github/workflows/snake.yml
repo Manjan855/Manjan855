@@ -22,13 +22,19 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Copy output to a clean writable folder
+        run: |
+          mkdir -p ${{ runner.temp }}/snake-output
+          sudo cp -r dist/. ${{ runner.temp }}/snake-output/
+          sudo chown -R $(whoami) ${{ runner.temp }}/snake-output
+
       - name: Push snake svg to output branch
         run: |
-          cd dist
+          cd ${{ runner.temp }}/snake-output
           git init
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -b output
           git add -A
-          git commit -m "Update snake animation"
+          git commit -m "Update snake animation" --allow-empty
           git push -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git output
