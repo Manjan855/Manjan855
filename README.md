@@ -56,7 +56,7 @@
 
 | Project | Description | Stack |
 |---|---|---|
-| **[SafeRide Nepal — Driver App](https://github.com/Manjan855)** | Real-time GPS school bus tracking system for drivers, parents & admins | Flutter, Riverpod, flutter_map, socket_io_client |
+| **[SafeRide Nepal — Driver App](https://github.com/Manjan855/driverapp)** | Real-time GPS school bus tracking system for drivers, parents & admins | Flutter, Riverpod, flutter_map, socket_io_client |
 | **[parentapp — safe-Riding App](https://github.com/Manjan855/parentapp)** | Full 3-role ride-hailing platform: customer, driver, admin, live tracking | Flutter, Clean Architecture, BLoC/Cubit, get_it, dartz, OSRM |
 | **[salon_app_view — Salon Booking App](https://github.com/Manjan855)** | End-to-end Figma-to-Flutter booking flow | Flutter, State Management |
 
