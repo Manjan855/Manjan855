@@ -28,7 +28,7 @@
 - 📱 Flutter developer with production-style experience in **Clean Architecture**, **BLoC/Cubit**, and **Riverpod**
 - 🛰️ Built a **real-time GPS bus tracking system** and a full **3-role ride-hailing platform** **salon hair style**
 - 🌱 Currently deepening backend integration (Firebase, REST, WebSockets) and DI patterns (`get_it` / `injectable`)
-- 💬 Ask me about Flutter state management, Clean Architecture, or Figma-to-Flutter workflows
+- 💬 Ask me about Flutter state management, Clean Architecture, or Figma-to-Flutter workflows and more
 
 ---
 
