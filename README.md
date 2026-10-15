@@ -24,7 +24,7 @@
 
 ### 🚀 About Me
 
-- 🎓 Final-year **BE Computer Engineering**, Kathmandu, Nepal
+- 🎓 **BE Computer Engineering**, Kathmandu, Nepal
 - 📱 Flutter developer with production-style experience in **Clean Architecture**, **BLoC/Cubit**, and **Riverpod**
 - 🛰️ Built a **real-time GPS bus tracking system** and a full **3-role ride-hailing platform** **salon hair style**
 - 🌱 Currently deepening backend integration (Firebase, REST, WebSockets) and DI patterns (`get_it` / `injectable`)
